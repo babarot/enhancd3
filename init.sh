@@ -10,7 +10,7 @@
 if [[ -n $BASH_VERSION ]]; then
     ENHANCD_ROOT="$(builtin cd "$(dirname "$BASH_SOURCE")" && pwd)"
 elif [[ -n $ZSH_VERSION ]]; then
-    ENHANCD_ROOT="${${(%):-%N}:A:h}"
+    ENHANCD_ROOT="${${(%):-%x}:A:h}"
 else
     return 1
 fi
