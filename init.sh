@@ -1,5 +1,5 @@
 #!/bin/bash
-# Version:    v2.1.4
+# Version:    v3.0.0a
 # Repository: https://github.com/b4b4r07/enhancd
 # Author:     b4b4r07 (BABAROT)
 # License:    MIT
